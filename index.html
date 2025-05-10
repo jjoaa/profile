@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./sources/favicon.png" type="image/png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>이주희 포트폴리오</title>
+    <!-- Pretendard 폰트 적용 -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css"
+    
+      />
+    <!-- Google Font 적용 -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Billabong&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS 파일 적용 -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container">
+        <div class="logo">이주희 개발자 포트폴리오</div>
+      </div>
+    </header>
+
+    <!-- main content -->
+    <main class="container">
+      <!-- 프로필 섹션 -->
+      <section class="profile-section">
+        <div class="profile-picture">
+          <img
+            id="profile-img"
+           src="./sources/profile.PNG"  alt="프로필 사진"
+          />
+        </div>
+        <div class="profile-info">
+          <div class="profile-header">
+            <h1 class="username">이주희</h1>
+            <button id="contact-button" class="action-button">e-mail</button>
+          </div>
+          <div class="stats">
+            <div class="stat-item">
+              개인 프로젝트 <strong id="projects-count">6</strong>
+            </div>
+            
+          </div>
+          <div class="bio">
+            <strong id="full-name">JooHee Lee</strong>
+          </div>
+          <div class="bio" id="bio-text">
+            의료 현장의 이해를 바탕으로 깔끔하고 효율적인 코드를 구현하는 간호사 출신 개발자입니다
+          </div>
+          <div class="website">
+            <a href="https://github.com/jjoaa7" id="website-link"
+              >https://github.com/jjoaa7</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- 기술 스택 섹션 -->
+      <section class="story-highlights">     
+         <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Logo_C_sharp.svg"
+                alt="C# 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">C#</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/C%2B%2B" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"
+                alt="C++ 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">C++</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" >
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png"
+                alt="C 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">C</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/Python_(programming_language)" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                alt="Python 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">Python</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://www.java.com/" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://www.vectorlogo.zone/logos/java/java-icon.svg"
+                alt="Java 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">Java</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+          >
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                alt="JavaScript 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">JS</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/TypeScript" target="_blank" >
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg"
+                alt="TypeScript 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">TS</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" >
+            <div class="highlight-image">
+              <img
+                src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png"
+                alt="HTML 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">HTML</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+          >
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+                alt="CSS 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">CSS</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://azure.microsoft.com/" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg"
+                alt="Azure 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">Azure</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/SQL" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://www.svgrepo.com/show/331760/sql-database-generic.svg"
+                alt="SQL 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">SQL</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/Oracle_NoSQL_Database" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Oracle_NOSQL_Database.jpg"
+                alt="Oracle 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">Oracle</div>
+          </a>
+        </div>
+        <div class="highlight">
+          <a href="https://www.oracle.com/kr/" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+                alt="MySQL 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">MySQL</div>
+          </a>
+        </div>
+        <!-- <div class="highlight">
+          <a href="https://ko.legacy.reactjs.org/" target="_blank" >
+            <div class="highlight-image">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                alt="React 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">React</div>
+          </a>
+        </div> 
+        <div class="highlight">
+          <a href="https://en.wikipedia.org/wiki/NoSQL" target="_blank">
+            <div class="highlight-image">
+              <img
+                src="https://www.svgrepo.com/show/373845/mongo.svg"
+                alt="NoSQL 로고"
+                class="skill-logo"
+              />
+            </div>
+            <div class="highlight-title">NoSQL</div>
+          </a>
+        </div> -->
+      
+      </section>
+      <!-- 통합된 스크롤 영역 -->
+      <div class="container-scroll">
+        <!-- 내용 영역 -->
+        <div class="scroll-left">
+          <div class="section" id="section1">
+            <h4>6. U pharmacy</h4>
+            <br>
+
+            <div class="subtitle">약국 처방시스템 </div>
+            
+            <p>C#을 활용하여 개발한 약국 처방 시스템입니다 </p>
+            <p>회의 기록, 강의 녹음, 혹은 단순한 메모까지 - 음성을 텍스트로, 텍스트를 이메일로 한 번에 처리합니다.</p>
+            
+            <ul class="features-list">
+              <li>고품질 음성 녹음 및 저장</li>
+              <li>정확한 음성-텍스트 변환(STT) 기능</li>
+              <li>변환된 텍스트 즉시 이메일 발송</li>
+              <li>직관적인 사용자 인터페이스</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">C#</span>
+            </div>
+            
+            <div class="link-container">
+              <a href="https://github.com/jjoaa/Upharmacy" class="link-button">GitHub</a>
+            </div>
+          </div>
+          
+          <div class="section" id="section2">
+            <h4>5. 의료용 마약류 통계 </h4>
+            <br>
+            <div class="subtitle"> </div>
+            
+            <p>??제 스킬과 프로젝트를 소개하는 반응형 웹사이트로, 모던 UI/UX 디자인 원칙을 적용했습니다.</p>
+            <p>??시각적 요소와 사용자 경험을 중시하는 제 개발 철학이 담겨있는 프로젝트입니다.</p>
+            
+            <ul class="features-list">
+              <li>???반응형 디자인으로 모든 디바이스 지원</li>
+              <li>??스크롤 기반 인터랙티브 이미지 전환 효과</li>
+              <li>??CSS 애니메이션을 활용한 부드러운 전환</li>
+              <li>??모던하고 직관적인 사용자 인터페이스</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            
+            <div class="link-container">
+              <a href="https://github.com/jjoaa/graph" class="link-button">GitHub</a>
+            </div>
+          </div>
+          
+          <div class="section" id="section3">
+            <h4>4. CheckHealth</h4>
+            <br>
+            <div class="subtitle">오늘도 건강중</div>
+            
+            <p>국가건강검진 결과와 일반 건강검진까지 </p>
+            <p>한눈에 볼 수 있는 프로그램</p>
+            
+            <ul class="features-list">
+              <li>QR 코드 기반 간편 스탬프 적립</li>
+              <li>사용자 계정 관리 및 인증 시스템</li>
+              <li>매장별 맞춤 스탬프 디자인 지원</li>
+              <li>적립 내역 실시간 동기화</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            
+            <div class="link-container">
+              <a href="https://github.com/jjoaa/checkHealth" class="link-button">GitHub</a>
+            </div>
+          </div>
+
+           
+          <div class="section" id="section3">
+            <h4>3. babySick</h4>
+            <br>
+            <div class="subtitle">아이가 아파요</div>
+            
+            <p>OPEN API(공공데이터포털과 카카오맵)을 이용하여 </p>
+            <p>소아야간진료(20시 이후)가 가능한 병의원 목록과</p>
+            <p>지도를 볼 수 있도록 할 수 있도록 구현하였습니다</p>
+            
+            <ul class="features-list">
+              <li>QR 코드 기반 간편 스탬프 적립</li>
+              <li>사용자 계정 관리 및 인증 시스템</li>
+              <li>매장별 맞춤 스탬프 디자인 지원</li>
+              <li>적립 내역 실시간 동기화</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+            
+            <div class="link-container">
+              <a href="https://github.com/jjoaa/kosta_p3" class="link-button">GitHub</a>
+            </div>
+          </div>
+
+           
+          <div class="section" id="section3">
+            <h4>2. The Museum</h4>
+            <br>
+            <div class="subtitle">나만의 작은 디지털 미술관</div>
+            
+            <p>여러 외국 박물관들의 미술작품 중에서  </p>
+            <p>작가별로 갤러리 형식의 사이트를 제작하였습니다</p>
+            
+            <ul class="features-list">
+              <li>QR 코드 기반 간편 스탬프 적립</li>
+              <li>사용자 계정 관리 및 인증 시스템</li>
+              <li>매장별 맞춤 스탬프 디자인 지원</li>
+              <li>적립 내역 실시간 동기화</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+            
+            <div class="link-container">
+              <a href="https://github.com/jjoaa/TheMuseum" class="link-button">GitHub</a>
+            </div>
+          </div>
+
+           
+          <div class="section" id="section3">
+            <h4>1. Check & Notes</h4>
+            <br>
+            <div class="subtitle">출결 관리와 기록을 한번에</div>
+            
+            <p> </p>
+            <p> </p>
+            
+            <ul class="features-list">
+              <li>QR 코드 기반 간편 스탬프 적립</li>
+              <li>사용자 계정 관리 및 인증 시스템</li>
+              <li>매장별 맞춤 스탬프 디자인 지원</li>
+              <li>적립 내역 실시간 동기화</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">App Inventor</span>
+              <span class="tech-tag">Geolocation</span>
+              <span class="tech-tag">모바일 앱</span>
+            </div>
+            
+            <div class="link-container">
+              <a href="https://github.com/jjoaa/checkNote" class="link-button">GitHub</a>
+            </div>
+          </div>
+          
+          <div class="section" id="section4">
+            <h5>다음 프로젝트</h5>
+            <div class="subtitle">Upcoming Next !</div>
+            
+            <p>새로운 프로젝트 준비 중입니다.</p>
+            <p>앞으로 배우는 것을 적용 할 예정입니다.</p>
+            
+            <ul class="features-list">
+              <li>최신 프레임워크 및 라이브러리 활용</li>
+              <li>사용자 중심 디자인 적용</li>
+              <li>성능과 확장성 최적화</li>
+              <li>실무 적용 가능한 실용적 솔루션</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tech-tag">Coming Soon</span>
+              <span class="tech-tag">New Tech</span>
+            </div>
+            
+            <div class="link-container">
+              <div class="link-text">기대해주세요 !!</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 이미지 영역 -->
+        <div class="scroll-right">
+          <div class="image-container">
+            <img id="image0" class="slide-image active" src="./sources/pharmacy.PNG" alt="All About Voice 앱 이미지" />
+            <img id="image1" class="slide-image" src="./sources/graph_drug.png" alt="의료용 마약류 통계 이미지" />
+            <img id="image2" class="slide-image" src="./sources/CheckHealth.png" alt="오늘도 건강중 이미지" />
+            <img id="image3" class="slide-image" src="./sources/sickbaby.PNG" alt="아이가 아파요 이미지" />
+            <img id="image4" class="slide-image" src="./sources/museum.png" alt="the museum 이미지" />
+            <img id="image5" class="slide-image" src="./sources/check.PNG" alt="Baro Stamping 서비스 이미지" />
+            <img id="image6" class="slide-image" src="./sources/comingSoon.webp" alt="다음 프로젝트 예고 이미지" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- JavaScript 파일 적용 -->
+    <script src="scripts.js"></script>
+  </body>
+</html>

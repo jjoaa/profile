@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
     img.style.cursor = "pointer"; // 클릭 가능하게 표시
     img.addEventListener("click", () => {
       window.open(img.src, "_blank");
-      console.log("click?");
+      // console.log("click?");
     });
   });
 

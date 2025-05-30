@@ -22,7 +22,7 @@
 <img src="https://img.shields.io/badge/graph_github-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>
 </a> <br/>
 
-<img width="590" alt="image" src="https://github.com/user-attachments/assets/bd414a8a-928d-405c-ad01-53141de7ae85" />
+<img width="590" alt="image" src="https://github.com/user-attachments/assets/e2744b13-10d5-4190-9693-7166902981e1" />
 <a href="https://github.com/jjoaa/checkHealth" target="_blank"><br/>
 <img src="https://img.shields.io/badge/checkHealth_github-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>
 </a> <br/>

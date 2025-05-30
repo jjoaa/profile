@@ -40,13 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // 이미지 클릭 시 새 창으로 보기
-  document.querySelectorAll("img").forEach((img) => {
-    img.style.cursor = "pointer"; // 클릭 가능하게 표시
-    img.addEventListener("click", () => {
-      window.open(img.src, "_blank");
-      // console.log("click?");
-    });
+document.querySelectorAll("img").forEach((img) => {
+  img.style.cursor = "pointer"; // 클릭 가능하게 표시
+  img.addEventListener("click", () => {
+    console.log("이미지 클릭됨:", img.src);
+    window.open(img.src, "_blank");
   });
+});
 
   // 스크롤 이벤트 리스너
   window.addEventListener("scroll", () => {

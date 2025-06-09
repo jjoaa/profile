@@ -3,6 +3,11 @@
 <br/> <br/>
 
 
+
+<a href="https://github.com/jjoaa/Currency" target="_blank"><br/>
+<img src="https://img.shields.io/badge/Currency_github-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>
+</a> <br/> 
+
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/dddeeb1c-c825-441e-b49e-51dc74c1f371" />
 <a href="https://github.com/jjoaa/Upharmacy" target="_blank"><br/>
 <img src="https://img.shields.io/badge/Upharmacy_github-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>

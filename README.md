@@ -23,8 +23,8 @@
 </a> <br/>
 
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/b095f512-5ead-4445-bdb6-492be666330f" />
-<a href="https://github.com/jjoaa/graph" target="_blank"><br/>
-<img src="https://img.shields.io/badge/graph_github-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>
+<a href="https://github.com/jjoaa/Drugraph" target="_blank"><br/>
+<img src="https://img.shields.io/badge/Drugraph_github-181717.svg?style=flat-square&logo=GitHub&logoColor=white"/>
 </a> <br/>
 
 <img width="590" alt="image" src="https://github.com/user-attachments/assets/6184b1d4-e415-4eca-bef2-8f30942b7d14" />
